@@ -1,0 +1,36 @@
+<html>
+    <head>        
+    </head>
+    <body>
+        <h1>회원 가입 양식</h1>
+        <hr>
+        <form>
+            아이디 : <input type="text" id="memberId" name="memberId" size="20"><br>
+            비밀번호 : <input type="password" id="memberPw" name="memberPw" size="20"><br>
+            <label>이름 : <input type="text" id="memberName" name="memberName" size="20"></label><br>
+            <label>
+                전화번호 : <input type="text" id="phone1" name="phone1" size="10"> 
+                - <input type="text" id="phone2" name="phone2" size="10">
+                - <input type="text" id="phone3" name="phone3" size="10">
+            </label><br>
+            회사전화 : <input type="tel" id="officePhone"><br>
+            이메일 : <input type="email" id="email"><br>
+            성별 : <input type="radio" name="gender" value="male" checked>남 <input type="radio" name="gender" value="female">여<br>
+            취미 : <input type="checkbox" name="hobby" value="sports">스포츠
+            <input type="checkbox" name="hobby" value="movie">영화
+            <input type="checkbox" name="hobby" value="book">독서
+            <input type="checkbox" name="hobby" value="game">게임<br>
+            보유 스마트폰 대수 : <input type="number" min="1" max="3" value="1"><br>
+            나이 : <input type="range" min="20" max="50" step="1" value="20" name="memberAge"><br>
+            생일 : <input type="date" name="birth"><br>
+            태어난 시간 : <input type="datetime-local" name="birthTime"><br>
+            예약 : <input type="date" min="2025-07-10" max="2025-07-31"><br>
+            사진첨부 : <input type="file"><br>
+            <input type="submit" value="회원가입">
+            <input type="reset" value="다시입력">
+            <input type="button" value="가입취소" onclick="window.open('image1.html','_blank', 'width=300, height=400')">
+            <input type="image" src="images/login.png" onclick="">
+        </form>
+
+    </body>
+</html>

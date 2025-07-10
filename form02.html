@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input form 연습</title>
+</head>
+<body>
+    <form>
+       회원이름 : <input type="hidden" name="memberName" value="손님"><br>
+       아이디 : <input type="text" name="memberId" placeholder="guest"><br>
+       비밀번호 : <input type="password" name="memberPW" autofocus><br>
+       메모장 : <textarea rows="15" cols="30" name="memo"></textarea><br>
+       이메일 : <input type="text" name="email1"> @ 
+       <select name="email2" size="3" multiple>
+            <option value="naver">naver.com</option>
+            <option value="daum">daum.net</option>
+            <option value="gmail" selected>gmail.com</option>
+       </select><br>
+       거주지 : <input type="text" value="서울" readonly><br>
+       <input type="submit" value="로그인">
+       <input type="reset" value="취소">
+    </form>
+</body>
+</html>
